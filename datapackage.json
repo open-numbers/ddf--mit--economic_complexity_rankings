@@ -1,0 +1,14 @@
+{
+    "name": "ddf--mit--economic_complexity_rankings",
+    "author": "Gapminder",
+    "description": "MIT Economic Complexity Rankings",
+    "language": {
+        "name": "English",
+        "id": "en"
+    },
+    "translations": [],
+    "license": "CC-BY-4.0",
+    "title": "MIT Economic Complexity Rankings",
+    "version": "0.0.1",
+    "resources": []
+}
