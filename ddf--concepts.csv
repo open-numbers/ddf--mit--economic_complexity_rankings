@@ -1,7 +1,8 @@
 concept,concept_type,domain,name
 country,entity_domain,,Country
 name,string,,Name
+domain,string,,Domain
 year,time,,Year
 eci,measure,,ECI
 eci_plus,measure,,ECI+
-domain,string,,Domain
+eci_ranking,measure,,ECI ranking
