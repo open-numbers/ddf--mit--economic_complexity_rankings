@@ -1,16 +1,17 @@
 # MIT Economic Complexity Rankings
 
-MIT Economic Complexity Rankings
+MIT Economic Complexity Rankings https://atlas.media.mit.edu/en/rankings/country/eci/
 
 ## Indicators
 
-- List of indicators in this repo
+- ECI and ECI+ as described in https://atlas.media.mit.edu/en/resources/methodology/
+- calculated ECI rankings
 
 ## Definition of indicator
 
+see https://atlas.media.mit.edu/en/resources/methodology/
 
-## Unit of measurement
-
+about data sources: https://atlas.media.mit.edu/en/resources/data/
 
 ## Versions
 
@@ -22,4 +23,3 @@ MIT Economic Complexity Rankings
 
 
 ## Specific information about this indicator
-
