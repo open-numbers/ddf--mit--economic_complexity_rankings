@@ -4,17 +4,17 @@
         "name": "English",
         "id": "en"
     },
-    "author": "Gapminder",
-    "created": "2018-06-20T01:31:27.906175+00:00",
-    "description": "MIT Economic Complexity Rankings",
-    "license": "CC-BY-4.0",
     "title": "MIT Economic Complexity Rankings",
+    "description": "MIT Economic Complexity Rankings",
+    "author": "Gapminder",
+    "license": "CC-BY-4.0",
+    "created": "2024-08-21T02:56:44.938452+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
         {
-            "path": "ddf--concepts.csv",
             "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
             "schema": {
                 "fields": [
                     {
@@ -30,12 +30,14 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
-            "path": "ddf--datapoints--eci--by--country--year.csv",
             "name": "ddf--datapoints--eci--by--country--year",
+            "path": "ddf--datapoints--eci--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -55,8 +57,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--eci_plus--by--country--year.csv",
             "name": "ddf--datapoints--eci_plus--by--country--year",
+            "path": "ddf--datapoints--eci_plus--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -76,8 +78,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--eci_ranking--by--country--year.csv",
             "name": "ddf--datapoints--eci_ranking--by--country--year",
+            "path": "ddf--datapoints--eci_ranking--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -97,8 +99,8 @@
             }
         },
         {
-            "path": "ddf--entities--country.csv",
             "name": "ddf--entities--country",
+            "path": "ddf--entities--country.csv",
             "schema": {
                 "fields": [
                     {
@@ -108,7 +110,9 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "country"
+                "primaryKey": [
+                    "country"
+                ]
             }
         }
     ],
